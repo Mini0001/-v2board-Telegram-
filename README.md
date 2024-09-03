@@ -9,6 +9,7 @@ TG群组 https://t.me/+4IUsjeKgj04xNmRh 有问题可讨论
 
 机器人在线支付内的二维码图片为目录中的 2.jpg 可替换为您的自定义图片 或者 您自己的收款码
 
+![image](https://github.com/user-attachments/assets/18c6f3c3-a150-4ccb-a1ab-d2e513cf7512)
 ![image](https://github.com/user-attachments/assets/1459454b-6b71-4271-842c-b9ea7d08e277)
 ![image](https://github.com/user-attachments/assets/5f03c788-898f-4d61-b00c-8b7bfb8325c6)
 ![image](https://github.com/user-attachments/assets/500a50b4-fbf5-4881-a126-ad96df6caaed)
