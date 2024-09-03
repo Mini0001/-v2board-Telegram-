@@ -5,6 +5,8 @@
 
 用户可使用机器人内的USDT支付，支付成功后会按照汇率计算将余额加入到充值成功的用户的v2board面板中，用户可直接在web面板使用余额订阅您的套餐
 
+机器人在线支付内的二维码图片为目录中的 2.jpg 可替换为您的自定义图片 或者 您自己的收款码
+
 ![image](https://github.com/user-attachments/assets/1459454b-6b71-4271-842c-b9ea7d08e277)
 ![image](https://github.com/user-attachments/assets/5f03c788-898f-4d61-b00c-8b7bfb8325c6)
 ![image](https://github.com/user-attachments/assets/500a50b4-fbf5-4881-a126-ad96df6caaed)
