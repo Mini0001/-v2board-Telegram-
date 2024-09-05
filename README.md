@@ -13,7 +13,7 @@ TG群组 https://t.me/+4IUsjeKgj04xNmRh 有问题可讨论
 机器人在线支付内的二维码图片为目录中的 2.jpg 可替换为您的自定义图片 或者 您自己的收款码
 
 * 更新 1.2
-  可直接在群组中发送 me 查看个人流量使用情况，可在config.json文件中配置官网url，群组中发送官网后会得到提示
+  可直接在群组中发送 me 查看个人流量使用情况，可在config.json文件中配置官网url，群组中发送官网后会得到提示，可在群组中引用到用户发送的消息下方发送命令"禁言10s" s(秒), m(分钟), h(小时), d(天)
 ![image](https://github.com/user-attachments/assets/c4fb5e7c-5ab1-4a7c-b42e-55e948b7a3e2)
 
 
