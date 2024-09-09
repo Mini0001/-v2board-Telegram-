@@ -83,10 +83,6 @@
 /dh [兑换码]  用户兑换命令
 /server       查看节点列表 (新增)
 
-
-# 安装依赖
-npm install
-
 # 安装 screen 以便在后台运行机器人
 sudo npm install screen
 
