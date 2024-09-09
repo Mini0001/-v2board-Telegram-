@@ -51,6 +51,20 @@
 - **freetime**: 用户签到后获得的额外时间（如 10m 表示 10 分钟）。
 - **web**: 你的官网地址，机器人会通过 "官网" 命令输出。
 
+
+# 开打机器人内联模式
+
+- **@BotFather 在官方机器人中设置**:
+- **不开启内联模式无法分享流量红包**:
+  
+![image](https://github.com/user-attachments/assets/fb594680-b48c-4bcd-805f-6965e94c38d2)
+
+![image](https://github.com/user-attachments/assets/e8b8e191-e4ec-43ea-8473-57474b4a5e1b)
+
+![image](https://github.com/user-attachments/assets/99582514-5a18-4c3e-b8e2-ffb521c48497)
+
+- **点击 Turn on 按钮为开启**:
+
 # 克隆仓库
 git clone https://github.com/Mini0001/-v2board-Telegram-
 如克隆失败请手动下载文件可能因为文件太大导致
