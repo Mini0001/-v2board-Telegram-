@@ -1,27 +1,33 @@
-# 🌟 V2board Telegram 机器人 | Version 1.4
+# 🌟 V2board Telegram 机器人 | Version 1.5
 
-[![version](https://img.shields.io/badge/version-1.4-brightgreen)](https://github.com/Mini0001/-v2board-Telegram-) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![version](https://img.shields.io/badge/version-1.5-brightgreen)](https://github.com/Mini0001/-v2board-Telegram-) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-🚀 **V2board Telegram 机器人** 是一个基于 **Node.js** 开发的高效工具，旨在为用户提供流量管理、红包生成、签到功能及 USDT 在线充值等功能。它使用经过编译的安全文件，保证无后门或恶意行为。
+🚀 **V2board Telegram 机器人** 是一个基于 **Node.js** 开发的高效工具，专为流量管理、红包生成、每日签到以及 USDT 在线充值等功能打造。使用经过编译的安全文件，无任何后门或恶意行为，确保你的账户安全无忧。
 
 ## ✨ 主要功能
 
-- **群组管理**：在群组中邀请机器人，可通过命令禁言用户。
-- **流量查询**：用户可随时查询自己账户的流量使用情况。
-- **兑换码生成**：管理员可生成套餐兑换码或流量兑换码。
-- **兑换码删除**：一键快速删除不再需要的兑换码。
-- **每日签到**：用户可每日签到领取随机流量，配置签到上限。
-- **流量红包**：支持发送单人或多人随机抢流量红包。
-- **USDT 在线充值**：支持用户通过 USDT 完成充值，汇率可配置，余额自动到账 V2board 后台。
+- **群组管理**：邀请机器人加入群组后，可使用禁言命令管理群组成员。
+- **流量查询**：用户可随时查询自己账户的流量使用情况，操作简便。
+- **兑换码管理**：支持管理员生成和删除套餐或流量兑换码。
+- **每日签到**：用户每日签到可随机获得流量，签到冷却时间和流量上限可配置。
+- **流量红包**：支持单人红包与多人随机红包，让用户享受抢流量的乐趣。
+- **USDT 在线充值**：支持 TRC20 USDT 充值，自动为用户账户充值，汇率灵活配置。
+
+## 🆕 更新日志
+
+### Version 1.5 更新内容：
+
+- **用户签到更新**：增加快捷签到命令，用户可以直接发送 `签到` 或点击按钮快速签到
+- **新增命令 `/server`**：管理员可使用此命令快速查看节点列表，方便快捷
+- - **修复致命Bug**：如数据库连接错误问题，是因为打包后读取`sql.json`文件时出现的问题
 
 ## 📦 社区与支持
 
-加入我们，提出问题或建议：[Telegram 交流群](https://t.me/+4IUsjeKgj04xNmRh)
+有任何疑问或建议，欢迎加入我们的 [Telegram 交流群](https://t.me/+4IUsjeKgj04xNmRh) 与我们交流。
 
 ## 🎨 界面预览
 
-展示机器人功能的视觉效果：
-
+以下为机器人部分功能的截图展示：
 
 ![image](https://github.com/user-attachments/assets/6e0eae20-c07b-4201-bdf4-2e8631953b2e)
 ![image](https://github.com/user-attachments/assets/dd29f430-c524-42ba-87d2-fa8a897b8479)
@@ -38,54 +44,52 @@
 
 ### 配置文件介绍
 
-机器人通过 `config.json` 文件进行配置，以下是关键字段：
+机器人通过 `config.json` 文件进行配置，以下为关键字段说明：
 
-- **hometext**: /start 命令后机器人的主页信息。
-- **token**: 机器人密钥。
-- **qd**: 最大签到流量，随机从 1 到最大值。
-- **qdOpen**: 签到功能开关，`true` 表示开启。
-- **qdtime**: 签到冷却时间，默认为 24 小时。
-- **usdt**: USDT 支付汇率，7.2 表示 1 USDT = 7.2 余额。
-- **adminuid**: 机器人管理员 UID 数组。
-- **address**: 你的 TRC20 钱包地址，用户充值使用。
-- **freetime**: 用户签到后获得的额外时间（如 10m 表示 10 分钟）。
-- **web**: 你的官网地址，机器人会通过 "官网" 命令输出。
+- **hometext**: /start 命令后显示的主页内容。
+- **token**: 机器人的 Telegram token。
+- **qd**: 每日最大签到流量，用户随机领取 1 到最大值的流量。
+- **qdOpen**: 控制签到功能的开启与关闭，`true` 表示开启。
+- **qdtime**: 用户签到冷却时间，默认为 24 小时。
+- **usdt**: USDT 汇率，7.2 表示 1 USDT = 7.2 元余额。
+- **adminuid**: 管理员 UID 列表。
+- **address**: 用户充值使用的 TRC20 钱包地址。
+- **freetime**: 用户签到后获得的额外时长（如 10m 表示 10 分钟）。
+- **web**: 机器人的官网地址，用户可通过输入 "官网" 命令查询。
 
+### 开启机器人内联模式
 
-# 开打机器人内联模式
+在 @BotFather 官方机器人中设置 **内联模式** 以启用分享流量红包功能：
 
-- **@BotFather 在官方机器人中设置**:
-- **不开启内联模式无法分享流量红包**:
-  
 ![image](https://github.com/user-attachments/assets/fb594680-b48c-4bcd-805f-6965e94c38d2)
 
 ![image](https://github.com/user-attachments/assets/e8b8e191-e4ec-43ea-8473-57474b4a5e1b)
 
 ![image](https://github.com/user-attachments/assets/99582514-5a18-4c3e-b8e2-ffb521c48497)
 
-- **点击 Turn on 按钮为开启**:
+点击 **Turn on** 按钮即可开启内联模式。
 
-# 克隆仓库
-git clone https://github.com/Mini0001/-v2board-Telegram-
-如克隆失败请手动下载文件可能因为文件太大导致
 
 # v2_user 数据库中添加uid字段
 ![image](https://github.com/user-attachments/assets/594b251e-1b05-4365-9ee5-f0a6705dcf58)
 
-# 安装 screen 以便在后台运行机器人
-sudo npm install screen
-
-# 给予文件 777 权限
-chomd 777 app
-
-# 启动机器人
-screen -S Robot ./app
-
-
 ### 机器人命令
 
 ```plaintext
-/gift         生成兑换码 (管理员专用)
-/delegift     删除兑换码 (管理员专用)
+/gift         生成兑换码 (仅限管理员)
+/delegift     删除兑换码 (仅限管理员)
 /dh [兑换码]  用户兑换命令
+/server       查看节点列表 (新增)
 
+
+# 安装依赖
+npm install
+
+# 安装 screen 以便在后台运行机器人
+sudo npm install screen
+
+# 赋予 app 文件执行权限
+chmod 777 app
+
+# 启动机器人
+screen -S Robot ./app
