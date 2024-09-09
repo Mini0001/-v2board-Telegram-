@@ -61,6 +61,9 @@ git clone https://github.com/Mini0001/-v2board-Telegram-
 # 安装 screen 以便在后台运行机器人
 sudo npm install screen
 
+# 给予文件 777 权限
+chomd 777 app
+
 # 启动机器人
 screen -S Robot ./app
 
