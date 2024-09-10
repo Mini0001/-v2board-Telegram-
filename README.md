@@ -17,7 +17,7 @@
 
 ### Version 1.6 更新内容：
 
-![image](https://github.com/user-attachments/assets/ed12e861-2130-47c5-bdab-44b1e51751d4)
+![image](https://github.com/user-attachments/assets/5f7562dc-56fa-444f-a6cc-2162e48ae9e4)
 
 - **新增命令 `/server` `我的订单`**：用户可使用此命令快速查询支付订单记录
 
