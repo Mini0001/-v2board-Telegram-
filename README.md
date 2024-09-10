@@ -1,6 +1,6 @@
-# 🌟 V2board Telegram 机器人 | Version 1.5
+# 🌟 V2board Telegram 机器人 | Version 1.6
 
-[![version](https://img.shields.io/badge/version-1.5-brightgreen)](https://github.com/Mini0001/-v2board-Telegram-) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![version](https://img.shields.io/badge/version-1.6-brightgreen)](https://github.com/Mini0001/-v2board-Telegram-) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 🚀 **V2board Telegram 机器人** 是一个基于 **Node.js** 开发的高效工具，专为流量管理、红包生成、每日签到以及 USDT 在线充值等功能打造。使用经过编译的安全文件，无任何后门或恶意行为，确保你的账户安全无忧。
 
@@ -15,13 +15,11 @@
 
 ## 🆕 更新日志
 
-### Version 1.5 更新内容：
+### Version 1.6 更新内容：
 
-![image](https://github.com/user-attachments/assets/0eeb4604-7bea-4bb3-860f-defc44275413)
+![image](https://github.com/user-attachments/assets/ed12e861-2130-47c5-bdab-44b1e51751d4)
 
-- **用户签到更新**：增加快捷签到命令，用户可以直接发送 `签到` 或点击按钮快速签到
-- **新增命令 `/server`**：用户可使用此命令快速查看节点列表，方便快捷
-- - **修复致命Bug**：如数据库连接错误问题，是因为打包后读取`sql.json`文件时出现的问题
+- **新增命令 `/server` `我的订单`**：用户可使用此命令快速查询支付订单记录
 
 ## 📦 社区与支持
 
