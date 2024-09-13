@@ -1,6 +1,6 @@
-# 🌟 V2board Telegram 机器人 | Version 1.6
+# 🌟 V2board Telegram 机器人 | Version 1.7
 
-[![version](https://img.shields.io/badge/version-1.6-brightgreen)](https://github.com/Mini0001/-v2board-Telegram-) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![version](https://img.shields.io/badge/version-1.7-brightgreen)](https://github.com/Mini0001/-v2board-Telegram-) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 🚀 **V2board Telegram 机器人** 是一个基于 **Node.js** 开发的高效工具，专为流量管理、红包生成、每日签到以及 USDT 在线充值等功能打造。使用经过编译的安全文件，无任何后门或恶意行为，确保你的账户安全无忧。
 
@@ -15,11 +15,13 @@
 
 ## 🆕 更新日志
 
-### Version 1.6 更新内容：
+### Version 1.7 更新内容：
 
-![image](https://github.com/user-attachments/assets/5f7562dc-56fa-444f-a6cc-2162e48ae9e4)
+![image](https://github.com/user-attachments/assets/fca039c1-6d94-460a-8b64-e0fca3525178)
 
-- **新增命令 `/order` `我的订单`**：用户可使用此命令快速查询支付订单记录
+![image](https://github.com/user-attachments/assets/52a16c47-d950-47ac-977b-112f1cf310b5)
+
+- **优化查询订单记录页面，可选中查询支付状态所有订单**
 
 ## 📦 社区与支持
 
